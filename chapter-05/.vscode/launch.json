@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug simple-cat",
+            "type": "go",
+            "request": "launch",
+            "program": "${workspaceFolder}/13-simple-cat/main.go",
+            "args": ["hello.txt"]
+        },
+        {
+            "name": "Run Program",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${file}"
+        }
+    ]
+}
